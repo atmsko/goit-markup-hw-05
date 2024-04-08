@@ -498,8 +498,8 @@ img {
     margin-bottom: 16px;
 }
 .icon-close {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #ffffff;
 }
 .icon-close:hover, .icon-close:focus {
-    fill: #ffffff;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
