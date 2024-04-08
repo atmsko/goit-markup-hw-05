@@ -420,9 +420,28 @@
             </button>
             <p class="title modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-            <input type="text" name="user-name" class="modal-input">
-            <input type="text" name="user-email" class="modal-input">
-            <input type="text" name="user-tel" class="modal-input">
+            <label for="user-name" class="modal-label">Name</label>
+            <input 
+            type="text" 
+            name="user-name" 
+            class="modal-input"
+            id="user-name"
+            />
+            <label for="user-tel" class="modal-label">Phone</label>
+            <input 
+            type="tel" 
+            name="user-tel" 
+            class="modal-input"
+            id="user-tel"
+            />
+            <label for="user-email" class="modal-label">Email</label>
+            <input 
+            type="email" 
+            name="user-email" 
+            class="modal-input"
+            id="user-email"
+            />
+            <button type="submit">Send</button>
         </form>
         </div>
     </div>
