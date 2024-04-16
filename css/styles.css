@@ -518,7 +518,11 @@ img {
 .modal-field {
     position: relative; 
     margin-bottom: 8px;
-}    
+}  
+.modal-field-comment{
+    position: relative; 
+    margin-bottom: 16px;
+}  
 .modal-input {
     width: 100%;
     height: 40px;
