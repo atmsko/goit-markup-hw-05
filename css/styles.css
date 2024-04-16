@@ -517,6 +517,7 @@ img {
 }
 .modal-field {
     position: relative; 
+    margin-bottom: 8px;
 }    
 .modal-input {
     width: 100%;
