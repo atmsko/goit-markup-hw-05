@@ -443,6 +443,25 @@ img {
 .footer-elipse-link:hover, .footer-elipse-link:focus {
     background-color: #31d0aa;
 }
+.footer-form {
+    display: flex; 
+
+}
+.footer-input {
+
+}
+.footer-btn {
+
+}
+
+.footer-form-subscribe {
+    margin-bottom: 16px; 
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
 .backdrop {
     position: fixed;
     top: 0;
