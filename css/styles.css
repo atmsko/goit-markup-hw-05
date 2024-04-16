@@ -579,6 +579,9 @@ img {
     resize: none;
     margin-bottom: 16px;
 }
+.modal-text:focus {
+    border-color: #4D5AE5;
+}
 .modal-check {
     /* width: 360px; */
 /* height: 16px; */
@@ -588,6 +591,9 @@ img {
 /* border-radius: 4px 0px 0px 0px; */
 /* opacity: 0px; */
 
+}
+.modal-field-check {
+    margin-bottom: 24px;
 }
 .check-text {
 font-size: 12px;
@@ -602,7 +608,7 @@ text-decoration-line: underline;
 text-decoration-skip-ink: none;
 color: #4D5AE5;
 }
-.check-text span {
+.check-text-span {
     /* position: relative; */
     width: 16px;
     height: 16px;
